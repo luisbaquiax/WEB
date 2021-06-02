@@ -6,14 +6,15 @@ body {
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
+    background: url(../imagenes/fonoUniversidad.jpg);
 }
 
-.register-teacher {
+.box-conteiner {
     margin: 3px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 200px;
     padding: 5px;
     background-color: rgba(9, 0, 128, 0.76);
@@ -22,21 +23,43 @@ body {
 
 .entrada {
     margin: 5px;
-    padding: 5px;
+    padding: 6px;
     display: block;
     width: 175px;
     border-radius: 10px;
 }
 
-.entrada-button {
-    padding: 5px;
+.button {
+    padding: 8px;
     margin-left: 40px;
     margin-top: 15px;
-    margin-bottom: 15px;
-    width: 125px;
+    width: auto;
     border-radius: 15px;
 }
-h1{
+
+.button-borrar {
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+
+h1 {
     text-align: center;
     color: rgb(46, 46, 133);
+}
+
+.regresar {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.box-regresar {
+    margin: 4px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 25px;
+    padding: 10px 5px 5px 10px;
+    background-color: rgba(9, 0, 128, 0.76);
+    border-radius: 10px;
 }
