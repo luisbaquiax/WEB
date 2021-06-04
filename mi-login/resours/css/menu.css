@@ -17,7 +17,6 @@ body {
 .menu {
     text-decoration: none;
     display: inline;
-    height: 100px;
     padding-top: 5px;
     padding-left: 5px;
     border: solid 1px rgb(0, 9, 128);
@@ -30,6 +29,7 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: rgb(34, 29, 112);
+    padding-bottom: 5px;
 }
 
 li {
@@ -38,6 +38,8 @@ li {
     height: 40px;
     padding-top: 5px;
     margin-top: 4px;
+    align-items: center;
+
 }
 
 li a {

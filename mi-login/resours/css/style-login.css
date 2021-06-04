@@ -18,7 +18,7 @@ body {
     margin-bottom: auto;
     margin-top: 5%;
     padding: 3px;
-    width: 250px;
+    width: 270px;
     height: auto;
     background-color: rgba(9, 0, 128, 0.76);
     border-radius: 15px;
@@ -26,7 +26,7 @@ body {
 
 .box {
     margin: 5px;
-    width: 185px;
+    width: 200px;
     height: 60px;
     background-color: rgb(79, 66, 192);
     padding: 0 1rem;

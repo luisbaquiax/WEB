@@ -1,65 +1,72 @@
 body {
-    background-color: rgba(178, 171, 238, 0.767);
-    color: blanchedalmond;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-    background: url(../imagenes/fonoUniversidad.jpg);
+  background-color: rgba(178, 171, 238, 0.767);
+  color: blanchedalmond;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  background: url(../imagenes/fonoUniversidad.jpg);
 }
 
 .box-conteiner {
-    margin: 3px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    width: 200px;
-    padding: 5px;
-    background-color: rgba(9, 0, 128, 0.76);
-    border-radius: 10px;
+  margin: 3px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 300px;
+  height: auto;
+  padding: 5px;
+  background-color: rgba(9, 0, 128, 0.76);
+  border-radius: 10px;
 }
 
 .entrada {
-    margin: 5px;
-    padding: 6px;
-    display: block;
-    width: 175px;
-    border-radius: 10px;
+  margin: 5px;
+  padding: 6px;
+  display: block;
+  width: 270px;
+  border-radius: 10px;
 }
 
 .button {
-    padding: 8px;
-    margin-left: 40px;
-    margin-top: 15px;
-    width: auto;
-    border-radius: 15px;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: auto;
+  border-radius: 15px;
 }
 
 .button-borrar {
-    margin-bottom: 15px;
-    margin-left: 55px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons {
+  display: flex;
 }
 
 h1 {
-    text-align: center;
-    color: rgb(46, 46, 133);
+  text-align: center;
+  color: rgb(46, 46, 133);
 }
 
 .regresar {
-    color: blanchedalmond;
-    text-decoration: none;
+  color: blanchedalmond;
+  text-decoration: none;
 }
 
 .box-regresar {
-    margin: 4px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 25px;
-    padding: 10px 5px 5px 10px;
-    background-color: rgba(9, 0, 128, 0.76);
-    border-radius: 10px;
+  margin: 4px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 25px;
+  padding: 10px 5px 5px 10px;
+  background-color: rgba(9, 0, 128, 0.76);
+  border-radius: 10px;
+  text-align: center;
 }
